@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* navbar */
+.navbar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+}
+
+#nav {
+    margin: 0px 15px;
+}
+
+#nav ul {
+    list-style: none;
+    display: flex;
+}
+
+#nav ul li a {
+    margin: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* sections */
+.section-1 {
+    position: relative;
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* background-color: red; */
+}
+
+#image {
+    width: 50%;
+    height: 100%;
+}
+
+#image img {
+    height: 94%;
+    width: 84%;
+    display: block;
+    margin: auto;
+}
+
+.content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.top-image {
+    width: 65%;
+    margin: 12px 0px;
+}
+
+.bottom-image {
+    width: 34%;
+    margin: 15px;
+}
+
+.main-content {
+    font-size: 1.4rem;
+    width: 60%;
+    margin: 12px 0px;
+}
+
+.inside {
+    width: 75%;
+    margin: 12px 0px;
+}
+
+.inside span {
+    color: #f24caf;
+}
+
+/* section-2 */
+.section-2 {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    /* background-color: yellow; */
+}
+
+.section-2 span {
+    font-weight: bold;
+}
+
+.section-2 p {
+    width: 50%;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 15px auto;
+    font-weight: 100;
+}
+
+#p3 {
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+/* section-3 */
+.section-3 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background:url("img/cards_bg.png");
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crads{
+    border: 2px solid red;
+}
+.section-4 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: orange;
+}
+
+.footer {
+    height: 20vh;
+    width: 100vw;
+    background-color: pink;
+}

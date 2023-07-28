@@ -325,6 +325,7 @@ body {
     #p3 {
         font-size: 16px;
     }
+
     .section-3 {
         font-size: 15px;
         flex-direction: column;
@@ -340,13 +341,14 @@ body {
     .cards h3 {
         font-size: 14px;
     }
-    .btn{
-        font-size:12px;
+
+    .btn {
+        font-size: 12px;
     }
 
 }
 
-@media only screen and (max-width:325px) {
+@media only screen and (max-width:450px) {
 
     .top-image {
         width: 139%;
@@ -354,39 +356,52 @@ body {
 
     .section-1 {
         flex-direction: column-reverse;
-        top: 50%;
+        top: 75%;
     }
 
     .section-2 {
         flex-direction: column-reverse;
-        height: 193vh;
-        top: 78%;
+        height: 255vh;
+        top: 120%;
+
     }
 
     #p3 {
         font-size: 12px;
     }
-    .copy-rights{
+
+    .copy-rights {
         font-size: 14px;
     }
 
-    /* .section-3 {
-        font-size: 15px;
-        flex-direction: column;
-        height: 120vh;
+
+}
+
+@media only screen and (max-width:265px) {
+
+    .top-image {
+        width: 139%;
     }
 
-    .cards {
+    .section-1 {
         flex-direction: column-reverse;
-        margin: 12px 0;
-        width: 80%;
+        top: 75%;
     }
 
-    .cards h3 {
-        font-size: 14px;
+    .section-2 {
+        flex-direction: column-reverse;
+        height: 319vh;
+        top: 131%;
+
     }
-    .btn{
-        font-size:12px;
-    } */
+
+    #p3 {
+        font-size: 12px;
+    }
+
+    .copy-rights {
+        font-size: 10px;
+    }
+
 
 }
